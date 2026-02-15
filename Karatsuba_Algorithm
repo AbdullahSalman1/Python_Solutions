@@ -1,0 +1,51 @@
+"""
+Karatsuba Multiplication Algorithm (Recursive)
+
+This script implements the Karatsuba algorithm for multiplying two non-negative integers.
+Karatsuba is a divide-and-conquer algorithm that is faster than the naive O(n^2) multiplication.
+
+Time Complexity: O(n^log2(3)) ≈ O(n^1.585)
+Reason:
+- Each recursive step splits the numbers roughly in half (n/2 digits)
+- Performs 3 recursive multiplications instead of 4
+- Linear time O(n) is spent on additions and digit shifting
+"""
+
+def karatsuba(x: int, y: int) -> int:
+    """
+    Recursively multiplies two integers x and y using Karatsuba algorithm.
+
+    Args:
+        x (int): First non-negative integer
+        y (int): Second non-negative integer
+
+    Returns:
+        int: Product of x and y
+    """
+    # Base case: if either number is single-digit, multiply directly
+    if x < 10 or y < 10:
+        return x * y
+
+    # Step 1: Determine the size of the numbers
+    s = max(len(str(x)), len(str(y)))
+    m = s // 2  # Split position (roughly half)
+
+    # Step 2: Split the numbers into high and low parts
+    # x = a*10^m + b, y = c*10^m + d
+    a, b = divmod(x, 10**m)
+    c, d = divmod(y, 10**m)
+
+    # Step 3: Recursively compute three multiplications
+    ac = karatsuba(a, c)        # high * high
+    bd = karatsuba(b, d)        # low * low
+    ac_bd = karatsuba(a + b, c + d)  # (high + low) * (high + low)
+
+    # Step 4: Combine results using Karatsuba formula
+    # x*y = ac*10^(2*m) + (ac_bd - ac - bd)*10^m + bd
+    return ac * 10**(2*m) + (ac_bd - ac - bd) * 10**m + bd
+
+# Example usage
+if __name__ == "__main__":
+    num1 = 1234
+    num2 = 5678
+    print(f"{num1} * {num2} = {karatsuba(num1, num2)}")

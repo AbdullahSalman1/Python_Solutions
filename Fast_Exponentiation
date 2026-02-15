@@ -1,0 +1,54 @@
+"""
+Fast Exponentiation / Power Function (myPow)
+
+This script implements the function to calculate x raised to the power n (x^n) efficiently 
+using the divide-and-conquer approach (also called exponentiation by squaring).
+
+Time Complexity: O(log n)
+Space Complexity: O(log n) due to recursion stack
+
+Key idea:
+- Recursively compute x^(n//2) and square it
+- If n is odd, multiply by x once more
+- Handles negative exponents by taking reciprocal
+"""
+
+class Solution(object):
+    def myPow(self, x, n):
+        """
+        Computes x raised to the power n (x^n).
+
+        Args:
+            x (float): Base number
+            n (int): Exponent (can be negative)
+
+        Returns:
+            float: Result of x^n
+        """
+        # Base cases
+        if n == 0:
+            return 1
+        if n == 1:
+            return x
+
+        # Handle negative exponent
+        if n < 0:
+            return 1 / self.myPow(x, -n)
+
+        # Recursive step: divide exponent by 2
+        half = self.myPow(x, n // 2)
+
+        # If exponent is even, just square half
+        if n % 2 == 0:
+            return half * half
+        # If exponent is odd, multiply by x once more
+        else:
+            return x * half * half
+
+# Example usage
+if __name__ == "__main__":
+    solution = Solution()
+    print("2^10 =", solution.myPow(2, 10))      # Output: 1024
+    print("2^-2 =", solution.myPow(2, -2))      # Output: 0.25
+    print("3^5 =", solution.myPow(3, 5))        # Output: 243
+    print("5^0 =", solution.myPow(5, 0))        # Output: 1
