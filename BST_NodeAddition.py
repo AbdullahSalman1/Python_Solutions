@@ -46,3 +46,4 @@ if __name__ == "__main__":
     bst_addition(bst, 'root', 70)
     bst_addition(bst, 'root', 60)
     print("BST after additions:", bst)
+
