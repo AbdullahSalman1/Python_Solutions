@@ -33,32 +33,6 @@ The repository currently includes:
 
 ------------------------------------------------------------------------
 
-## 🛠️ Technologies Used
-
--   Python 3
-
-------------------------------------------------------------------------
-
-## ▶️ How to Run
-
-1.  Clone the repository: git clone
-    https://github.com/your-username/your-repo-name.git
-
-2.  Navigate to the folder: cd your-repo-name
-
-3.  Run any file: python filename.py
-
-------------------------------------------------------------------------
-
-## 📌 Future Improvements
-
--   Add time and space complexity analysis
--   Add comments and explanations for each algorithm
--   Include test cases
--   Organize files into folders (Sorting, Math, Trees, etc.)
-
-------------------------------------------------------------------------
-
 ## 👨‍💻 Author
 
 Abdullah Salman\
