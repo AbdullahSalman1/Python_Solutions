@@ -22,6 +22,8 @@ The repository currently includes:
 -   Prime Factors
 -   Smallest Factor
 -   Topological Sort Using DFS
+-   Topological Sort Kahn Algorithm
+
 
 ------------------------------------------------------------------------
 
