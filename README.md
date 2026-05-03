@@ -21,6 +21,7 @@ The repository currently includes:
 -   Priority Queue
 -   Prime Factors
 -   Smallest Factor
+-   Topological Sort Using DFS
 
 ------------------------------------------------------------------------
 
