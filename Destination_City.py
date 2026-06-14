@@ -1,5 +1,5 @@
 """
-Destination City
+Destination City Leetcode 1436 Problem
 
 Problem:
 You are given a list of paths where each path is represented as:
