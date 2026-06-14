@@ -23,6 +23,7 @@ The repository currently includes:
 -   Smallest Factor
 -   Topological Sort Using DFS
 -   Topological Sort Kahn Algorithm
+-   Destination City Leetcode 1436
 
 
 ------------------------------------------------------------------------
