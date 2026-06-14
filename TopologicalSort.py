@@ -43,7 +43,7 @@ def dfs(graph, node, visited, stack):
     for neighbor in graph[node]:
         if neighbor not in visited:
             dfs(graph, neighbor, visited, stack)
-    stack.append(node)  # Append after visiting all neighbors
+    stack.append(node)  # Append node after visiting all its neighbors
 
 
 def topological_sort(graph):
