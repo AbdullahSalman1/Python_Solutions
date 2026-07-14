@@ -24,6 +24,7 @@ The repository currently includes:
 -   Topological Sort Using DFS
 -   Topological Sort Kahn Algorithm
 -   Destination City Leetcode 1436
+-   Reorganize String Leetcode 767
 
 
 ------------------------------------------------------------------------
