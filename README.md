@@ -27,6 +27,7 @@ The repository currently includes:
 -   Reorganize String Leetcode 767
 -   Minimum Remove to Make Valid Parentheses Leetcode 1249
 -   Interval List Intersections - Leetcode 986
+-   Diameter of Binary Tree - Leetcode 543
 
 
 ------------------------------------------------------------------------
