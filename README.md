@@ -26,6 +26,7 @@ The repository currently includes:
 -   Destination City Leetcode 1436
 -   Reorganize String Leetcode 767
 -   Minimum Remove to Make Valid Parentheses Leetcode 1249
+-   Interval List Intersections - Leetcode 986
 
 
 ------------------------------------------------------------------------
