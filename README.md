@@ -28,7 +28,7 @@ The repository currently includes:
 -   Minimum Remove to Make Valid Parentheses Leetcode 1249
 -   Interval List Intersections - Leetcode 986
 -   Diameter of Binary Tree - Leetcode 543
-
+-   Random Pick With Weight - Leetcode 548
 
 ------------------------------------------------------------------------
 
