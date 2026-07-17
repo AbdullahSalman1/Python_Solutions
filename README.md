@@ -29,6 +29,7 @@ The repository currently includes:
 -   Interval List Intersections - Leetcode 986
 -   Diameter of Binary Tree - Leetcode 543
 -   Random Pick With Weight - Leetcode 548
+-   Two Sum | Hash Map
 
 ------------------------------------------------------------------------
 
