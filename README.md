@@ -30,7 +30,8 @@ The repository currently includes:
 -   Diameter of Binary Tree - Leetcode 543
 -   Random Pick With Weight - Leetcode 548
 -   Two Sum | Hash Map (Leetcode)
--   Best Time to Buy and Sell Stock -  Two Pointer Approach - Leetcode 121  
+-   Best Time to Buy and Sell Stock -  Two Pointer Approach - Leetcode 121
+-   Maximum Subarray (LeetCode 53) Kadane's Algorithm
 
 ------------------------------------------------------------------------
 
