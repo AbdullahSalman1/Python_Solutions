@@ -33,6 +33,7 @@ The repository currently includes:
 -   Best Time to Buy and Sell Stock -  Two Pointer Approach - Leetcode 121
 -   Maximum Subarray (LeetCode 53) Kadane's Algorithm
 -   Product of Array Except Self - Leetcode 238 
+-   Maximum Product Subarray - Leetcode 152
 
 ------------------------------------------------------------------------
 
