@@ -32,6 +32,7 @@ The repository currently includes:
 -   Two Sum | Hash Map (Leetcode)
 -   Best Time to Buy and Sell Stock -  Two Pointer Approach - Leetcode 121
 -   Maximum Subarray (LeetCode 53) Kadane's Algorithm
+-   Product of Array Except Self - Leetcode 238 
 
 ------------------------------------------------------------------------
 
