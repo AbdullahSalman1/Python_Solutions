@@ -34,6 +34,7 @@ The repository currently includes:
 -   Maximum Subarray (LeetCode 53) Kadane's Algorithm
 -   Product of Array Except Self - Leetcode 238 
 -   Maximum Product Subarray - Leetcode 152
+-   Find Minimum in Rotated Sorted Array - Leetcode 153
 
 ------------------------------------------------------------------------
 
