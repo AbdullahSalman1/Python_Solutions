@@ -38,7 +38,7 @@ The repository currently includes:
 -   Search in Rotated Sorted Array - Leetcode 33
 -   3 Sum Problem - Leetcode 15
 -   Container With Most Water - Leetcode 11
-
+-   Counting Bits - Leetcode 338
 ------------------------------------------------------------------------
 
 ## 🎯 Purpose
