@@ -36,6 +36,7 @@ The repository currently includes:
 -   Maximum Product Subarray - Leetcode 152
 -   Find Minimum in Rotated Sorted Array - Leetcode 153
 -   Search in Rotated Sorted Array - Leetcode 33
+-   3 Sum Problem - Leetcode 15
 
 ------------------------------------------------------------------------
 
