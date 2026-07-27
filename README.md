@@ -39,6 +39,7 @@ The repository currently includes:
 -   3 Sum Problem - Leetcode 15
 -   Container With Most Water - Leetcode 11
 -   Counting Bits - Leetcode 338
+-   Climbing Stairs - Leetcode 70
 ------------------------------------------------------------------------
 
 ## 🎯 Purpose
