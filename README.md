@@ -40,6 +40,7 @@ The repository currently includes:
 -   Container With Most Water - Leetcode 11
 -   Counting Bits - Leetcode 338
 -   Climbing Stairs - Leetcode 70
+-   Longest Increasing Subsequence - Leetcode 300
 ------------------------------------------------------------------------
 
 ## 🎯 Purpose
